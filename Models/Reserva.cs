@@ -47,7 +47,6 @@ namespace DesafioProjetoHospedagem.Models
                 double valorFinal = ((double)valor) - (percentual * ((double)valor));
                 Console.WriteLine($"Você recebeu um desconto de 10% seu valor final é de: " + valorFinal);
             }
-
             return valor;
         }
     }
