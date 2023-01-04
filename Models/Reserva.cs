@@ -32,7 +32,7 @@ namespace DesafioProjetoHospedagem.Models
         }
 
         public int ObterQuantidadeHospedes()
-        {
+        {            
             return Hospedes.Count;
         }
 
